@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+/*ie 适用*/
+.rightdetails table.tile .project_images td .bg{
+	display:none;
+	}
+.rightdetails table.tile .project_images  td:hover .bg{
+	display:block;
+	}
+.rightdetails table.tile .project_images td .detailsview{
+	display:none;
+	}
+.rightdetails table.tile .project_images  td:hover .detailsview{
+	display:block;
+	}
+
+
+.rightdetails .response_box .response_tile .project_info .bg{
+	display:none !important;
+	}
+.rightdetails .response_box .response_tile:hover .project_info .bg{
+	display:block !important;
+	}
+.rightdetails .response_box .response_tile .project_info .detailsview{
+	display:none !important;
+	}
+.rightdetails .response_box .response_tile:hover .project_info .detailsview{
+	display:block !important;
+	}
+.rightdetails .upload .file_upload{
+    border: 0;
+    height: 30px;
+    width: 300px;
+    vertical-align: middle;
+    line-height: 30px;
+    background: #fff;
+}
+
+
+
+

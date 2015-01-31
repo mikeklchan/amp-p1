@@ -1,0 +1,342 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>建筑物详细信息</title>
+<meta http-equiv="Pragma" content="No-cache" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/css3-mediaqueries.js"></script>
+
+</head>
+
+<body>
+<!---->
+    <div class="header">
+    	<table>
+          <tbody>
+            <tr>
+              <td class="space"></td>
+              <td class="soho_logo"><img src="../images/soho_headerlogo.png" width="160" height="100" alt=""/></td>
+              <td>SOHO中国资产管理平台</td>
+              <td class="welcome"><i class="fa_user fa"><!--[if IE 7]><![endif]--></i><span>Hello</span><span class="username">User</span><a href="../index.html"><i class="fa_sign_out fa"><!--[if IE 7]><![endif]--></i></a></td>
+              <td class="space"></td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+<!---->
+    <table class="content">
+      <tbody>
+        <tr>
+          <td class="leftmenu" >
+            <table class="menu">
+              <tbody>
+                <tr>
+                  <td class="menu_icon"><i class="fa_building fa"><!--[if IE 7]><![endif]--></i></td>
+                  <td class="menu_name">项目列表</td>
+                </tr>
+                <tr>
+                  <td class="menu_icon"><i class="fa_search fa"><!--[if IE 7]><![endif]--></i></td>
+                  <td class="menu_name">数据查询</td>
+                </tr>
+                <tr>
+                  <td class="menu_icon"><i class="fa_pie_chart fa"><!--[if IE 7]><![endif]--></i></td>
+                  <td class="menu_name">数据统计</td>
+                </tr>
+                <tr>
+                  <td class="menu_icon"><i class="fa_tags fa"><!--[if IE 7]><![endif]--></i></td>
+                  <td class="menu_name">无形资产</td>
+                </tr>
+                <tr>
+                  <td class="menu_icon"><i class="fa_gears fa"><!--[if IE 7]><![endif]--></i></td>
+                  <td class="menu_name">资产信息批量维护</td>
+                </tr>
+                <tr>
+                  <td class="sub_menu_icon"></td>
+                  <td class="sub_menu_name">文字信息批量维护</td>
+                </tr>
+                <tr>
+                  <td class="sub_menu_icon"></td>
+                  <td class="sub_menu_name">图片信息批量维护</td>
+                </tr>
+                <tr>
+                  <td class="menu_icon"><i class="fa_download fa"><!--[if IE 7]><![endif]--></i></td>
+                  <td class="menu_name">明源OA接口</td>
+                </tr>
+                <tr>
+                  <td class="sub_menu_icon"></td>
+                  <td class="sub_menu_name">模板下载</td>
+                </tr>
+                <tr>
+                  <td class="sub_menu_icon"></td>
+                  <td class="sub_menu_name">接口数据确认</td>
+                </tr>
+                <tr>
+                  <td class="menu_icon"><i class="fa_gear fa"><!--[if IE 7]><![endif]--></i></td>
+                  <td class="menu_name">系统管理</td>
+                </tr>
+                <tr>
+                  <td class="sub_menu_icon"></td>
+                  <td class="sub_menu_name">用户管理</td>
+                </tr>
+                <tr>
+                  <td class="sub_menu_icon"></td>
+                  <td class="sub_menu_name">角色管理</td>
+                </tr>
+                <tr>
+                  <td class="menu_icon"><i class="fa_sign_out fa"><!--[if IE 7]><![endif]--></i></td>
+                  <td class="menu_name">登出</td>
+                </tr>
+              </tbody>
+            </table>
+          
+          </td>
+          <td class="rightdetails">
+<!--     navigation     -->
+            <table class="navigation projectlist">
+              <tbody>
+                <tr>
+                  <td class="left_icon"><i class="fa_building fa"><!--[if IE 7]><![endif]--></i></td>
+                  <td class="title"><a href="project_bj.html"><span>项目列表</span></a>
+                  <i class="fa_angle_right fa"><!--[if IE 7]><![endif]--></i>
+                  <a href="project_info.html"><span>建外SOHO</span></a>
+                  <i class="fa_angle_right fa"><!--[if IE 7]><![endif]--></i>
+                  <span>建外SOHO1号楼会所</span>
+                  </td>
+                  <td class="right_icon"><i class="fa_edit fa"><!--[if IE 7]><![endif]--></i></td>
+                </tr>
+              </tbody>
+            </table>
+
+<!--     tab     -->
+            <table class="navigation project_tab" hidden="hidden">
+              <tbody>
+                <tr>
+                  <td class="space"></td>
+                  <td class="location active"><span>项目图片</span></td>
+                  <td class="empty"></td>
+                  <td class="right_icon"><i class="fa_edit fa"><!--[if IE 7]><![endif]--></i></td>
+                  <td class="space"></td>
+                </tr>
+              </tbody>
+            </table>
+<!--    big photo     -->
+          	<div class="small_image" hidden="">
+       	    	<img src="../images/SOHO_A01.png" alt="建外SOHO" title="建外SOHO"/>
+       	    	<img src="../images/SOHO_A01.png" alt="建外SOHO" title="建外SOHO"/>
+       	    	<img src="../images/SOHO_A01.png" alt="建外SOHO" title="建外SOHO"/>
+       	    	<img src="../images/SOHO_A01.png" alt="建外SOHO" title="建外SOHO"/>
+              <p class="project_name">建外SOHO1号楼会所</p>
+            </div>
+<!--    info    -->
+            <table class="info" hidden="">
+              <tbody>
+                <tr>
+                  <td class="space"></td>
+                  <td class="title">建筑物详细信息</td>
+                  <td class="right_icon"><i class="fa_angle_down fa"><!--[if IE 7]><![endif]--></i></td>
+                  <td class="space"></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="details">
+              <table>
+                <tbody>
+                  <tr>
+                    <td class="dot"><i class="fa_arrow_right fa"><!--[if IE 7]><![endif]--></i></td>
+                    <td class="attr"><span>建筑物名称</span></td>
+                    <td class="value"><span>建外SOHO2号楼会所</span></td>
+                  </tr>
+                  <tr>
+                    <td class="dot"><i class="fa_arrow_right fa"><!--[if IE 7]><![endif]--></i></td>
+                    <td class="attr"><span>标称楼层</span></td>
+                    <td class="value"><span>北京红石建外房地产开发有限公司</span></td>
+                  </tr>
+                  <tr>
+                    <td class="dot"><i class="fa_arrow_right fa"><!--[if IE 7]><![endif]--></i></td>
+                    <td class="attr"><span>楼层名称</span></td>
+                    <td class="value"><span>建外SOHO-一、二期</span></td>
+                  </tr>
+                  <tr>
+                    <td class="dot"><i class="fa_arrow_right fa"><!--[if IE 7]><![endif]--></i></td>
+                    <td class="attr"><span>建筑物实际楼层</span></td>
+                    <td class="value"><span>150,000平方米</span></td>
+                  </tr>
+                  <tr>
+                    <td class="dot"><i class="fa_arrow_right fa"><!--[if IE 7]><![endif]--></i></td>
+                    <td class="attr"><span>公安局备案地址</span></td>
+                    <td class="value"><span>房屋来源</span></td>
+                  </tr>
+                  <tr>
+                    <td class="dot"><i class="fa_arrow_right fa"><!--[if IE 7]><![endif]--></i></td>
+                    <td class="attr"><span>建筑面积</span></td>
+                    <td class="value"><span>是</span></td>
+                  </tr>
+                  <tr>
+                    <td class="dot"><i class="fa_arrow_right fa"><!--[if IE 7]><![endif]--></i></td>
+                    <td class="attr"><span>资产属性</span></td>
+                    <td class="value"><span>资产</span></td>
+                  </tr>
+                  <tr>
+                    <td class="dot"><i class="fa_arrow_right fa"><!--[if IE 7]><![endif]--></i></td>
+                    <td class="attr"><span>房屋来源</span></td>
+                    <td class="value"><span>资产属性</span></td>
+                  </tr>
+                  <tr>
+                    <td class="dot"><i class="fa_arrow_right fa"><!--[if IE 7]><![endif]--></i></td>
+                    <td class="attr"><span>是否有产权</span></td>
+                    <td class="value"><span>是</span></td>
+                  </tr>
+                  <tr>
+                    <td class="dot"><i class="fa_arrow_right fa"><!--[if IE 7]><![endif]--></i></td>
+                    <td class="attr"><span>房屋所有权号</span></td>
+                    <td class="value"><span>20088888888</span></td>
+                    <td class="img"></td>
+                  </tr>
+                  </tbody>
+                </table>
+              <table>
+                <tbody>
+                  <tr>
+                    <td class="dot"><i class="fa_arrow_right fa"><!--[if IE 7]><![endif]--></i></td>
+                    <td class="attr"><span>是否有抵押</span></td>
+                    <td class="value"><span>无</span></td>
+                  </tr>
+                  <tr>
+                    <td class="dot"><i class="fa_arrow_right fa"><!--[if IE 7]><![endif]--></i></td>
+                    <td class="attr"><span>普通地下室备案</span></td>
+                    <td class="value"><span>有</span></td>
+                  </tr>
+                  <tr>
+                    <td class="dot"><i class="fa_arrow_right fa"><!--[if IE 7]><![endif]--></i></td>
+                    <td class="attr"><span>人民防空工程使用许可</span></td>
+                    <td class="value"><span>有</span></td>
+                  </tr>
+                  <tr>
+                    <td class="dot"><i class="fa_arrow_right fa"><!--[if IE 7]><![endif]--></i></td>
+                    <td class="attr"><span>公共停车场经营备案证</span></td>
+                    <td class="value"><span>有</span></td>
+                  </tr>
+                  <tr>
+                    <td class="dot"><i class="fa_arrow_right fa"><!--[if IE 7]><![endif]--></i></td>
+                    <td class="attr"><span>停车场收费许可证明</span></td>
+                    <td class="value"><span>有</span></td>
+                  </tr>
+                  <tr>
+                    <td class="dot"><i class="fa_arrow_right fa"><!--[if IE 7]><![endif]--></i></td>
+                    <td class="attr"><span>其他有关证照</span></td>
+                    <td class="value"><span>查看</span></td>
+                    <td class="img"><a href="#"><i class="fa_photo fa"><!--[if IE 7]><![endif]--></i></a></td>
+                  </tr>
+                  <tr>
+                    <td class="dot"><i class="fa_arrow_right fa"><!--[if IE 7]><![endif]--></i></td>
+                    <td class="attr"><span>权证档案</span></td>
+                    <td class="value"><span>查看</span></td>
+                    <td class="img"><a href="#"><i class="fa_photo fa"><!--[if IE 7]><![endif]--></i></a></td>
+                  </tr>
+                  <tr>
+                    <td class="dot"><i class="fa_arrow_right fa"><!--[if IE 7]><![endif]--></i></td>
+                    <td class="attr"><span>平面竣工图</span></td>
+                    <td class="value"><span>查看</span></td>
+                    <td class="img"><a href="#"><i class="fa_photo fa"><!--[if IE 7]><![endif]--></i></a></td>
+                  </tr>
+                  </tbody>
+                </table>
+              <div class="clear"></div>
+            </div>
+            <table class="info">
+              <tbody>
+                <tr>
+                  <td class="space"></td>
+                  <td class="title">建筑物列表</td>
+                  <td class="right_icon"><i class="fa_angle_down fa"><!--[if IE 7]><![endif]--></i></td>
+                  <td class="space"></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="details2">
+              <table cellspacing="1">
+                <tbody>
+                  <tr>
+                  <!--第一个class:No:是必须,后面的name/type/area/state等等是非必须,可以根据意义自由定义,作将来调整样式的需要.-->
+                    <th class="no">No:</i></td>
+                    <th class="name"><span>楼层</span></td>
+                    <th class="area"><span>建筑面积</span></td>
+                    <th class="attr"><span>单元数量</span></td>
+                  </tr>
+                  <tr>
+                    <td class="no">1</td>
+                    <td class="name"><span><a href="project_building_level_info.html">B01</a></span></td>
+                    <td class="area"><span>7,000</span>平方米</td>
+                    <td class="attr"><span>48</span></td>
+                  </tr>
+                  <tr>
+                    <td class="no">2</td>
+                    <td class="name"><span><a href="project_building_level_info.html">B02</a></span></td>
+                    <td class="level"><span>7,000</span>平方米</td>
+                    <td class="area"><span>98</span></td>
+                  </tr>
+                  <tr>
+                    <td class="no">3</td>
+                    <td class="name"><span><a href="project_building_level_info.html">B03</a></span></td>
+                    <td class="level"><span>7,000</span>平方米</td>
+                    <td class="area"><span>58</span></td>
+                  </tr>
+                  <tr>
+                    <td class="no">4</td>
+                    <td class="name"><span><a href="project_building_level_info.html">B04</a></span></td>
+                    <td class="level"><span>7,000</span>平方米</td>
+                    <td class="area"><span>78</span></td>
+                  </tr>
+                </table>
+              <div class="clear"></div>
+            </div>
+
+            
+          <div hidden="hidden" id="page">
+       	  	<ul>
+            	<li class="start"><i class="fa_angle_double_left fa"><!--[if IE 7]><![endif]--></i></li>
+            	<li class="previous"><i class="fa_angle_left fa"><!--[if IE 7]><![endif]--></i></li>
+            	<li class="current">1</li>
+            	<li>2</li>
+            	<li>3</li>
+            	<li>…</li>
+            	<li class="next"><i class="fa_angle_right fa"><!--[if IE 7]><![endif]--></i></li>
+            	<li class="end"><i class="fa_angle_double_right fa"><!--[if IE 7]><![endif]--></i></li>
+            </ul>
+          </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+<!--
+	  <div class="leftmenu">
+
+		</div>
+	  <div class="rightdetails">
+
+		</div>
+      <div class="clear"></div>
+      -->
+<!---->
+<!--footer-->
+    <div class="footer">
+    	<table>
+          <tbody>
+            <tr>
+              <td class="space"></td>
+              <td class="soho_logo"><img src="../images/soho_footerlogo.png" alt=""/></td>
+              <td class="name">SOHO中国资产管理平台</td>
+              <td class="support">技术支持:PCCW solutions电讯盈科企业方案</td>
+              <td class="space"></td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+<!---->
+
+</body>
+</html>
